@@ -1,0 +1,22 @@
+.TodoList {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 0.3rem 1rem;
+
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+button {
+  margin: 4px;
+}
+li {
+  margin: auto 1rem;
+}
+.TodoList button:hover {
+  background-color: orange;
+  color: green;
+}
